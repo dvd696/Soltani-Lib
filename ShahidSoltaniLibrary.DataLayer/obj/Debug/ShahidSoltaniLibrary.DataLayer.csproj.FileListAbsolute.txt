@@ -1,0 +1,14 @@
+F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.DataLayer\bin\Debug\ShahidSoltaniLibrary.DataLayer.dll
+F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.DataLayer\bin\Debug\ShahidSoltaniLibrary.DataLayer.pdb
+F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.DataLayer\obj\Debug\ShahidSoltaniLibrary.DataLayer.csproj.AssemblyReference.cache
+F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.DataLayer\obj\Debug\ShahidSoltaniLibrary.DataLayer.csproj.CoreCompileInputs.cache
+F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.DataLayer\obj\Debug\ShahidSoltaniLibrary.DataLayer.dll
+F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.DataLayer\obj\Debug\ShahidSoltaniLibrary.DataLayer.pdb
+F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.DataLayer\bin\Debug\ShahidSoltaniLibrary.DataLayer.dll.config
+F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.DataLayer\bin\Debug\EntityFramework.dll
+F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.DataLayer\bin\Debug\EntityFramework.SqlServer.dll
+F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.DataLayer\bin\Debug\EntityFramework.xml
+F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.DataLayer\bin\Debug\EntityFramework.SqlServer.xml
+F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.DataLayer\obj\Debug\ShahidSoltaniLibrary.DataLayer.csproj.CopyComplete
+F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.DataLayer\obj\Debug\ShahidSoltaniLibrary.DataLayer.csproj.GenerateResource.cache
+F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.DataLayer\obj\Debug\ShahidSoltaniLibrary.DataLayer.Migrations.first.resources

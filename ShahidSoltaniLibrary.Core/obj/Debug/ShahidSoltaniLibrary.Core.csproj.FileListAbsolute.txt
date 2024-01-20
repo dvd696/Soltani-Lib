@@ -1,0 +1,6 @@
+F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.Core\bin\Debug\ShahidSoltaniLibrary.Core.dll
+F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.Core\bin\Debug\ShahidSoltaniLibrary.Core.pdb
+F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.Core\obj\Debug\ShahidSoltaniLibrary.Core.csproj.AssemblyReference.cache
+F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.Core\obj\Debug\ShahidSoltaniLibrary.Core.csproj.CoreCompileInputs.cache
+F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.Core\obj\Debug\ShahidSoltaniLibrary.Core.dll
+F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.Core\obj\Debug\ShahidSoltaniLibrary.Core.pdb
