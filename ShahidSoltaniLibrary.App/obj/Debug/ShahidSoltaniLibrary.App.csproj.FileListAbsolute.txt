@@ -18,3 +18,14 @@ F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.App\obj\Debug\ShahidSoltani
 F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.App\obj\Debug\ShahidSoltaniLibrary.App.BooksForm.resources
 F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.App\obj\Debug\ShahidSoltaniLibrary.App.BookForm.resources
 F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.App\obj\Debug\ShahidSoltaniLibrary.App.ReportForm.resources
+F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.App\bin\Debug\ShahidSoltaniLibrary.Core.dll
+F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.App\bin\Debug\ShahidSoltaniLibrary.DataLayer.dll
+F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.App\bin\Debug\EntityFramework.dll
+F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.App\bin\Debug\ShahidSoltaniLibrary.Core.pdb
+F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.App\bin\Debug\ShahidSoltaniLibrary.Core.dll.config
+F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.App\bin\Debug\ShahidSoltaniLibrary.DataLayer.pdb
+F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.App\bin\Debug\ShahidSoltaniLibrary.DataLayer.dll.config
+F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.App\bin\Debug\EntityFramework.xml
+F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.App\bin\Debug\EntityFramework.SqlServer.dll
+F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.App\bin\Debug\EntityFramework.SqlServer.xml
+F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.App\obj\Debug\ShahidSoltaniLibrary.App.EditUserForm.resources

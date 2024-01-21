@@ -4,3 +4,12 @@ F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.Core\obj\Debug\ShahidSoltan
 F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.Core\obj\Debug\ShahidSoltaniLibrary.Core.csproj.CoreCompileInputs.cache
 F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.Core\obj\Debug\ShahidSoltaniLibrary.Core.dll
 F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.Core\obj\Debug\ShahidSoltaniLibrary.Core.pdb
+F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.Core\bin\Debug\ShahidSoltaniLibrary.Core.dll.config
+F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.Core\bin\Debug\EntityFramework.dll
+F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.Core\bin\Debug\EntityFramework.SqlServer.dll
+F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.Core\bin\Debug\ShahidSoltaniLibrary.DataLayer.dll
+F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.Core\bin\Debug\ShahidSoltaniLibrary.DataLayer.pdb
+F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.Core\bin\Debug\ShahidSoltaniLibrary.DataLayer.dll.config
+F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.Core\bin\Debug\EntityFramework.xml
+F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.Core\bin\Debug\EntityFramework.SqlServer.xml
+F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.Core\obj\Debug\ShahidSoltaniLibrary.Core.csproj.CopyComplete

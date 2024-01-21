@@ -19,7 +19,7 @@ namespace ShahidSoltaniLibrary.DataLayer.Context
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
-            //modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
+            base.OnModelCreating(modelBuilder);
         }
     }
 }

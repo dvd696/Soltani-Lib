@@ -51,14 +51,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Core\UnitOfWork.cs" />
+    <Compile Include="Interfaces\IUserInterface.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\UserService.cs" />
+    <Compile Include="Tools\DateConvertor.cs" />
+    <Compile Include="ViewModels\ShowUser.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Interfaces\" />
-    <Folder Include="Services\" />
-    <Folder Include="Tools\" />
-    <Folder Include="ViewModels\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\ShahidSoltaniLibrary.DataLayer\ShahidSoltaniLibrary.DataLayer.csproj">
       <Project>{54f2642c-32a7-4c97-9fb5-8349cd67d274}</Project>
