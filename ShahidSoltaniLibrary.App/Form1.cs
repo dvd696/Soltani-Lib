@@ -1,4 +1,6 @@
 ﻿using Bunifu.UI.WinForms.Extensions;
+using ShahidSoltaniLibrary.Core.Core;
+using ShahidSoltaniLibrary.DataLayer.Entities;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -14,9 +16,17 @@ namespace ShahidSoltaniLibrary.App
 {
     public partial class FormMain : Form
     {
+        private UnitOfWork _uow;
         public FormMain()
         {
             InitializeComponent();
+            _uow = new UnitOfWork();
+            UpdateData();
+        }
+
+        private void UpdateData(string title = "")
+        {
+            grd.DataSource = _uow.CategoryService.GetAll(title);
         }
 
         private void xuiFormDesign1_Paint(object sender, PaintEventArgs e)
@@ -85,6 +95,55 @@ namespace ShahidSoltaniLibrary.App
         {
             BooksForm frm = new BooksForm();
             frm.ShowDialog();
+        }
+
+        private void btnAddCategory_Click(object sender, EventArgs e)
+        {
+            if (txtCategory.Text != "" && txtCategory.Text != null)
+            {
+                if (_uow.CategoryService.IsExist(txtCategory.Text))
+                    MessageBox.Show("عملیات موفقیت آمیز بود", "افزودن",
+                            MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+                else
+                {
+                    Category category = new Category();
+                    category.Title = txtCategory.Text;
+                    _uow.CategoryService.Add(category);
+                    _uow.Save();
+                    MessageBox.Show("عملیات موفقیت آمیز بود", "افزودن",
+                            MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+                    UpdateData();
+                }
+            }
+
+            txtCategory.Text = "";
+        }
+
+        private void txtSearch_TextChanged(object sender, EventArgs e)
+        {
+            UpdateData(txtSearch.Text);
+        }
+
+        private void grd_CellContentDoubleClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (grd.SelectedCells.Count > 0)
+            {
+                if (MessageBox.Show("آیا از حذف اطمینان دارید؟", "حذف",
+                    MessageBoxButtons.OKCancel, MessageBoxIcon.Warning)
+                    == DialogResult.OK)
+                {
+                    int categoryId = Convert.ToInt32(grd.SelectedCells[0].Value);
+                    bool res = _uow.CategoryService.Delete(categoryId);
+                    _uow.Save();
+                    if (res)
+                        MessageBox.Show("عملیات موفقیت آمیز بود", "حذف",
+                            MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+                    else
+                        MessageBox.Show("عملیات شکشت خورد دوباره تلاش کنید", "حذف",
+                            MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    UpdateData();
+                }
+            }
         }
     }
 }

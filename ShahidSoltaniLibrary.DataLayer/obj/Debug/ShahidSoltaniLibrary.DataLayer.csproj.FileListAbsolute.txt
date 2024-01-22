@@ -12,3 +12,4 @@ F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.DataLayer\bin\Debug\EntityF
 F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.DataLayer\obj\Debug\ShahidSoltaniLibrary.DataLayer.csproj.CopyComplete
 F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.DataLayer\obj\Debug\ShahidSoltaniLibrary.DataLayer.csproj.GenerateResource.cache
 F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.DataLayer\obj\Debug\ShahidSoltaniLibrary.DataLayer.Migrations.first.resources
+F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.DataLayer\obj\Debug\ShahidSoltaniLibrary.DataLayer.Migrations.category.resources

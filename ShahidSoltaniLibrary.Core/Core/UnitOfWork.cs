@@ -1,6 +1,7 @@
 ﻿using ShahidSoltaniLibrary.Core.Interfaces;
 using ShahidSoltaniLibrary.Core.Services;
 using ShahidSoltaniLibrary.DataLayer.Context;
+using ShahidSoltaniLibrary.DataLayer.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -31,6 +32,19 @@ namespace ShahidSoltaniLibrary.Core.Core
             }
         }
 
+
+        private ICategoryInterface _categoryService;
+        public ICategoryInterface CategoryService
+        {
+            get
+            {
+                if(_categoryService == null)
+                {
+                    _categoryService = new CategoryService(context);
+                }
+                return _categoryService;
+            }
+        }
 
 
         public void Save()

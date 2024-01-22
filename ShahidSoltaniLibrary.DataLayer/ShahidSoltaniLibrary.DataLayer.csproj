@@ -54,10 +54,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Context\LibraryContext.cs" />
+    <Compile Include="Entities\Category.cs" />
     <Compile Include="Entities\User.cs" />
     <Compile Include="Migrations\202401201721225_first.cs" />
     <Compile Include="Migrations\202401201721225_first.designer.cs">
       <DependentUpon>202401201721225_first.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202401221129334_category.cs" />
+    <Compile Include="Migrations\202401221129334_category.designer.cs">
+      <DependentUpon>202401221129334_category.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -69,6 +74,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202401201721225_first.resx">
       <DependentUpon>202401201721225_first.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202401221129334_category.resx">
+      <DependentUpon>202401221129334_category.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

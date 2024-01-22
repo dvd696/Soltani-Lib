@@ -290,7 +290,7 @@
   <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
-  <data name="bunifuTextBox2.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="txtSearch.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAPgAAAAnCAYAAAAiuYXxAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
         YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACrSURBVHhe7dOxCcQwAARB9V+VhMr4MlyAjUDJt7DMwCWX
@@ -299,31 +299,31 @@
         sL/A11rPOcyssdP0zRtoGuMDd5YSy2z+GYkAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="bunifuTextBox2.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="txtSearch.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 30</value>
   </data>
-  <data name="bunifuTextBox2.MinimumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="txtSearch.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>1, 1</value>
   </data>
-  <data name="bunifuTextBox2.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="txtSearch.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
-  <data name="bunifuTextBox2.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="txtSearch.Size" type="System.Drawing.Size, System.Drawing">
     <value>248, 39</value>
   </data>
-  <data name="bunifuTextBox2.TabIndex" type="System.Int32, mscorlib">
+  <data name="txtSearch.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;bunifuTextBox2.Name" xml:space="preserve">
-    <value>bunifuTextBox2</value>
+  <data name="&gt;&gt;txtSearch.Name" xml:space="preserve">
+    <value>txtSearch</value>
   </data>
-  <data name="&gt;&gt;bunifuTextBox2.Type" xml:space="preserve">
+  <data name="&gt;&gt;txtSearch.Type" xml:space="preserve">
     <value>Bunifu.UI.WinForms.BunifuTextBox, Bunifu.UI.WinForms, Version=0.0.0.0, Culture=neutral, PublicKeyToken=2cd9edde853ca0a6</value>
   </data>
-  <data name="&gt;&gt;bunifuTextBox2.Parent" xml:space="preserve">
+  <data name="&gt;&gt;txtSearch.Parent" xml:space="preserve">
     <value>groupBox3</value>
   </data>
-  <data name="&gt;&gt;bunifuTextBox2.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;txtSearch.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <data name="groupBox3.Location" type="System.Drawing.Point, System.Drawing">
@@ -350,7 +350,7 @@
   <data name="&gt;&gt;groupBox3.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="bunifuTextBox1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+  <data name="txtCategory.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAPgAAAAnCAYAAAAiuYXxAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
         YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACrSURBVHhe7dOxCcQwAARB9V+VhMr4MlyAjUDJt7DMwCWX
@@ -359,31 +359,31 @@
         sL/A11rPOcyssdP0zRtoGuMDd5YSy2z+GYkAAAAASUVORK5CYII=
 </value>
   </data>
-  <data name="bunifuTextBox1.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="txtCategory.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 35</value>
   </data>
-  <data name="bunifuTextBox1.MinimumSize" type="System.Drawing.Size, System.Drawing">
+  <data name="txtCategory.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>1, 1</value>
   </data>
-  <data name="bunifuTextBox1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="txtCategory.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 3, 3, 3</value>
   </data>
-  <data name="bunifuTextBox1.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="txtCategory.Size" type="System.Drawing.Size, System.Drawing">
     <value>248, 39</value>
   </data>
-  <data name="bunifuTextBox1.TabIndex" type="System.Int32, mscorlib">
+  <data name="txtCategory.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="&gt;&gt;bunifuTextBox1.Name" xml:space="preserve">
-    <value>bunifuTextBox1</value>
+  <data name="&gt;&gt;txtCategory.Name" xml:space="preserve">
+    <value>txtCategory</value>
   </data>
-  <data name="&gt;&gt;bunifuTextBox1.Type" xml:space="preserve">
+  <data name="&gt;&gt;txtCategory.Type" xml:space="preserve">
     <value>Bunifu.UI.WinForms.BunifuTextBox, Bunifu.UI.WinForms, Version=0.0.0.0, Culture=neutral, PublicKeyToken=2cd9edde853ca0a6</value>
   </data>
-  <data name="&gt;&gt;bunifuTextBox1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;txtCategory.Parent" xml:space="preserve">
     <value>groupBox1</value>
   </data>
-  <data name="&gt;&gt;bunifuTextBox1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;txtCategory.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <data name="btnAddCategory.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
@@ -446,7 +446,7 @@
   <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
-  <data name="bunifuDataGridView1.ColumnHeadersHeight" type="System.Int32, mscorlib">
+  <data name="grd.ColumnHeadersHeight" type="System.Int32, mscorlib">
     <value>40</value>
   </data>
   <metadata name="Column1.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
@@ -455,31 +455,34 @@
   <data name="Column1.HeaderText" xml:space="preserve">
     <value>نام دسته</value>
   </data>
-  <metadata name="Column2.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+  <metadata name="CategoryId.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
-  <data name="Column2.HeaderText" xml:space="preserve">
-    <value>#</value>
+  <data name="CategoryId.HeaderText" xml:space="preserve">
+    <value>CategoryId</value>
   </data>
-  <data name="bunifuDataGridView1.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="CategoryId.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="grd.Location" type="System.Drawing.Point, System.Drawing">
     <value>19, 225</value>
   </data>
-  <data name="bunifuDataGridView1.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="grd.Size" type="System.Drawing.Size, System.Drawing">
     <value>260, 310</value>
   </data>
-  <data name="bunifuDataGridView1.TabIndex" type="System.Int32, mscorlib">
+  <data name="grd.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="&gt;&gt;bunifuDataGridView1.Name" xml:space="preserve">
-    <value>bunifuDataGridView1</value>
+  <data name="&gt;&gt;grd.Name" xml:space="preserve">
+    <value>grd</value>
   </data>
-  <data name="&gt;&gt;bunifuDataGridView1.Type" xml:space="preserve">
+  <data name="&gt;&gt;grd.Type" xml:space="preserve">
     <value>Bunifu.UI.WinForms.BunifuDataGridView, Bunifu.UI.WinForms, Version=0.0.0.0, Culture=neutral, PublicKeyToken=2cd9edde853ca0a6</value>
   </data>
-  <data name="&gt;&gt;bunifuDataGridView1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;grd.Parent" xml:space="preserve">
     <value>panelCategory</value>
   </data>
-  <data name="&gt;&gt;bunifuDataGridView1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;grd.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
   <data name="panelCategory.Location" type="System.Drawing.Point, System.Drawing">
@@ -2323,10 +2326,10 @@
   <data name="&gt;&gt;Column1.Type" xml:space="preserve">
     <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;Column2.Name" xml:space="preserve">
-    <value>Column2</value>
+  <data name="&gt;&gt;CategoryId.Name" xml:space="preserve">
+    <value>CategoryId</value>
   </data>
-  <data name="&gt;&gt;Column2.Type" xml:space="preserve">
+  <data name="&gt;&gt;CategoryId.Type" xml:space="preserve">
     <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
