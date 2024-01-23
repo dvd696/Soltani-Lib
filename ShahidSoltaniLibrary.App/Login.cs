@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ShahidSoltaniLibrary.Core.Core;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,9 +13,11 @@ namespace ShahidSoltaniLibrary.App
 {
     public partial class Login : Form
     {
+        UnitOfWork _uow;
         public Login()
         {
             InitializeComponent();
+            _uow = new UnitOfWork();
         }
 
         private void bunifuLabel1_Click(object sender, EventArgs e)
@@ -34,9 +37,18 @@ namespace ShahidSoltaniLibrary.App
 
         private void bunifuButton1_Click(object sender, EventArgs e)
         {
-            errorlbl.Visible = true;
-            DialogResult = DialogResult.OK;
-            this.Close();
+            //{UserName : Savior , Password : 777}
+            if (txtUserName.Text != "" && txtPassword.Text != "")
+            {
+                if (_uow.LoginService.IsExistLogin(txtUserName.Text, txtPassword.Text))
+                {
+                    MessageBox.Show("خودش آمدید");
+                    DialogResult = DialogResult.OK;
+                    this.Close();
+                }
+                else
+                    errorlbl.Visible = true;
+            }
         }
 
         private void bunifuLabel2_Click(object sender, EventArgs e)

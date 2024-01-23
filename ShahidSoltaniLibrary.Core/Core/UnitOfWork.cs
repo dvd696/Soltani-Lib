@@ -38,11 +38,24 @@ namespace ShahidSoltaniLibrary.Core.Core
         {
             get
             {
-                if(_categoryService == null)
+                if (_categoryService == null)
                 {
                     _categoryService = new CategoryService(context);
                 }
                 return _categoryService;
+            }
+        }
+
+        private ILoginInterface _loginService;
+        public ILoginInterface LoginService
+        {
+            get
+            {
+                if (_loginService == null)
+                {
+                    _loginService = new LoginService(context);
+                }
+                return _loginService;
             }
         }
 

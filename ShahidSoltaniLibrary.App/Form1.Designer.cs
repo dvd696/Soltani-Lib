@@ -92,12 +92,12 @@
             this.txtCategory = new Bunifu.UI.WinForms.BunifuTextBox();
             this.btnAddCategory = new Bunifu.UI.WinForms.BunifuButton.BunifuButton2();
             this.grd = new Bunifu.UI.WinForms.BunifuDataGridView();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.CategoryId = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.CategoryId = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.xuiCustomToolstrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuPictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuPictureBox2)).BeginInit();
@@ -981,6 +981,21 @@
             this.grd.Theme = Bunifu.UI.WinForms.BunifuDataGridView.PresetThemes.Navy;
             this.grd.CellContentDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.grd_CellContentDoubleClick);
             // 
+            // Column1
+            // 
+            this.Column1.DataPropertyName = "Title";
+            resources.ApplyResources(this.Column1, "Column1");
+            this.Column1.Name = "Column1";
+            this.Column1.ReadOnly = true;
+            this.Column1.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            // 
+            // CategoryId
+            // 
+            this.CategoryId.DataPropertyName = "CategoryId";
+            resources.ApplyResources(this.CategoryId, "CategoryId");
+            this.CategoryId.Name = "CategoryId";
+            this.CategoryId.ReadOnly = true;
+            // 
             // label1
             // 
             resources.ApplyResources(this.label1, "label1");
@@ -1007,21 +1022,6 @@
             this.trnPanel.SetDecoration(this.contextMenuStrip1, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             resources.ApplyResources(this.contextMenuStrip1, "contextMenuStrip1");
-            // 
-            // Column1
-            // 
-            this.Column1.DataPropertyName = "Title";
-            resources.ApplyResources(this.Column1, "Column1");
-            this.Column1.Name = "Column1";
-            this.Column1.ReadOnly = true;
-            this.Column1.Resizable = System.Windows.Forms.DataGridViewTriState.False;
-            // 
-            // CategoryId
-            // 
-            this.CategoryId.DataPropertyName = "CategoryId";
-            resources.ApplyResources(this.CategoryId, "CategoryId");
-            this.CategoryId.Name = "CategoryId";
-            this.CategoryId.ReadOnly = true;
             // 
             // FormMain
             // 

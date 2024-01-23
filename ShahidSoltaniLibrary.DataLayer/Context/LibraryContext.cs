@@ -17,7 +17,7 @@ namespace ShahidSoltaniLibrary.DataLayer.Context
         }
         public DbSet<User> Users { get; set; }
         public DbSet<Category> Categories { get; set; }
-
+        public DbSet<Login> Login { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
