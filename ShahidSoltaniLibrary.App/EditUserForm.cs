@@ -55,11 +55,11 @@ namespace ShahidSoltaniLibrary.App
             {
                 res = _uow.UserService.DeleteUser(user.UserId);
                 _uow.Save();
+                if (res)
+                    DialogResult = DialogResult.OK;
+                else
+                    DialogResult = DialogResult.Abort;
             }
-            if (res)
-                DialogResult = DialogResult.OK;
-            else
-                DialogResult = DialogResult.Abort;
         }
 
         private void bunifuImageButton1_Click(object sender, EventArgs e)

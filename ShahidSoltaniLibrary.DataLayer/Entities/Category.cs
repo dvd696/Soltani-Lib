@@ -23,6 +23,7 @@ namespace ShahidSoltaniLibrary.DataLayer.Entities
 
         #region Navigation Property
 
+        public List<Book> Books { get; set; }
 
         #endregion
     }

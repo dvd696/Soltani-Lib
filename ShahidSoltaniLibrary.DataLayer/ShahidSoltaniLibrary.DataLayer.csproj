@@ -54,9 +54,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Context\LibraryContext.cs" />
+    <Compile Include="Entities\Book.cs" />
     <Compile Include="Entities\Login.cs" />
     <Compile Include="Entities\Category.cs" />
     <Compile Include="Entities\User.cs" />
+    <Compile Include="Entities\UserBook.cs" />
     <Compile Include="Migrations\202401201721225_first.cs" />
     <Compile Include="Migrations\202401201721225_first.designer.cs">
       <DependentUpon>202401201721225_first.cs</DependentUpon>
@@ -68,6 +70,14 @@
     <Compile Include="Migrations\202401231934413_Login.cs" />
     <Compile Include="Migrations\202401231934413_Login.designer.cs">
       <DependentUpon>202401231934413_Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202401261511079_addbooks.cs" />
+    <Compile Include="Migrations\202401261511079_addbooks.designer.cs">
+      <DependentUpon>202401261511079_addbooks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202401261513242_addregistertobooks.cs" />
+    <Compile Include="Migrations\202401261513242_addregistertobooks.designer.cs">
+      <DependentUpon>202401261513242_addregistertobooks.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -85,6 +95,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202401231934413_Login.resx">
       <DependentUpon>202401231934413_Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202401261511079_addbooks.resx">
+      <DependentUpon>202401261511079_addbooks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202401261513242_addregistertobooks.resx">
+      <DependentUpon>202401261513242_addregistertobooks.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

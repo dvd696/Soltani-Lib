@@ -14,3 +14,5 @@ F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.DataLayer\obj\Debug\ShahidS
 F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.DataLayer\obj\Debug\ShahidSoltaniLibrary.DataLayer.Migrations.first.resources
 F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.DataLayer\obj\Debug\ShahidSoltaniLibrary.DataLayer.Migrations.category.resources
 F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.DataLayer\obj\Debug\ShahidSoltaniLibrary.DataLayer.Migrations.Login.resources
+F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.DataLayer\obj\Debug\ShahidSoltaniLibrary.DataLayer.Migrations.addbooks.resources
+F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.DataLayer\obj\Debug\ShahidSoltaniLibrary.DataLayer.Migrations.addregistertobooks.resources

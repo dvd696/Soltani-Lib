@@ -212,7 +212,7 @@
             this.txtPassword.Padding = new System.Windows.Forms.Padding(3);
             this.txtPassword.PasswordChar = '●';
             this.txtPassword.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.txtPassword.PlaceholderText = "کلمه عبور";
+            this.txtPassword.PlaceholderText = "";
             this.txtPassword.ReadOnly = false;
             this.txtPassword.ScrollBars = System.Windows.Forms.ScrollBars.None;
             this.txtPassword.SelectedText = "";
@@ -226,7 +226,7 @@
             this.txtPassword.TextMarginBottom = 0;
             this.txtPassword.TextMarginLeft = 3;
             this.txtPassword.TextMarginTop = 1;
-            this.txtPassword.TextPlaceholder = "کلمه عبور";
+            this.txtPassword.TextPlaceholder = "";
             this.txtPassword.UseSystemPasswordChar = true;
             this.txtPassword.WordWrap = true;
             this.txtPassword.TextChanged += new System.EventHandler(this.bunifuTextBox2_TextChanged);
