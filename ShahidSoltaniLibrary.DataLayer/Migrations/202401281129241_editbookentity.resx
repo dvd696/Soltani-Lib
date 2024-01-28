@@ -117,53 +117,10 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="xuiObjectEllipse1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="bunifuButton22.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAMIAAAAnCAYAAABdaJcAAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACLSURBVHhe7dNRDcMwFMDAB33Apmg8BqMAWjc0ch8nmYBn
-        vvOf39xwrPeBHR842PuAETieESBGgBgBYgSIESBGgBgBYgSIESBGgBgBYgSIESBGgBgBYgSIESBGgBgB
-        YgSIESBGgBgBYgSIESBGgBgBYgSIESBGgBgBYgSIESBGgBgBskdYc+2AU625HqaurRuZtoDOAAAAAElF
-        TkSuQmCC
-</value>
+  <data name="Target" xml:space="preserve">
+    <value>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</value>
   </data>
-  <data name="bunifuButton21.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAL8AAAAnCAYAAABe35koAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACUSURBVHhe7d2hEcAwEAPB77/FlGFuZ8JdQW7BItHjmj3z
-        nJkDJV/3cxugQPxkiZ8s8ZMlfrLET5b4yRI/WeInS/xkiZ8s8ZMlfrLET5b4yRI/WeInS/xkiZ8s8ZMl
-        frLET5b4yRI/WeInS/xkiZ8s8ZMlfrLET5b4yRI/WeInS/xkiZ8s8ZMlfrK+N8Z1G+DP9sx6AXTm+sKZ
-        EcJCAAAAAElFTkSuQmCC
-</value>
-  </data>
-  <data name="txtTitle.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAUMAAAAnCAYAAACVISr/AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACwSURBVHhe7dQxDQMxAARB80fll2EERgDk15KbYPCMdM0B
-        2AHAsdb6zDl/Zma3bffvpHCMfQDcaPfvpFAMgXuJIUDEECBiCBAxBIgYAkQMASKGABFDgIghQMQQIGII
-        EDEEiBgCRAwBIoYAEUOAiCFAxBAgYggQMQSIGAJEDAEihgARQ4CIIUDEECBiCBAxBIgYAkQMASKGABFD
-        gIghQP5i+DzPdx9mZrdt9++kEOB2Y7zUD9cnpE1etgAAAABJRU5ErkJggg==
-</value>
-  </data>
-  <data name="txtShelf.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAUMAAAAnCAYAAACVISr/AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACwSURBVHhe7dQxDQMxAARB80fll2EERgDk15KbYPCMdM0B
-        2AHAsdb6zDl/Zma3bffvpHCMfQDcaPfvpFAMgXuJIUDEECBiCBAxBIgYAkQMASKGABFDgIghQMQQIGII
-        EDEEiBgCRAwBIoYAEUOAiCFAxBAgYggQMQSIGAJEDAEihgARQ4CIIUDEECBiCBAxBIgYAkQMASKGABFD
-        gIghQP5i+DzPdx9mZrdt9++kEOB2Y7zUD9cnpE1etgAAAABJRU5ErkJggg==
-</value>
-  </data>
-  <data name="txtfloor.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAUMAAAAnCAYAAACVISr/AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAACwSURBVHhe7dQxDQMxAARB80fll2EERgDk15KbYPCMdM0B
-        2AHAsdb6zDl/Zma3bffvpHCMfQDcaPfvpFAMgXuJIUDEECBiCBAxBIgYAkQMASKGABFDgIghQMQQIGII
-        EDEEiBgCRAwBIoYAEUOAiCFAxBAgYggQMQSIGAJEDAEihgARQ4CIIUDEECBiCBAxBIgYAkQMASKGABFD
-        gIghQP5i+DzPdx9mZrdt9++kEOB2Y7zUD9cnpE1etgAAAABJRU5ErkJggg==
-</value>
+  <data name="DefaultSchema" xml:space="preserve">
+    <value>dbo</value>
   </data>
 </root>

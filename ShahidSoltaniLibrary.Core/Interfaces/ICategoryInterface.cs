@@ -13,6 +13,7 @@ namespace ShahidSoltaniLibrary.Core.Interfaces
         bool Add(Category category);
         bool Edit(Category category);
         Category GetOneById(int categoryId);
+        int GetIdByTitle(string title);
         bool IsExist(string title);
         bool Delete(Category category);
         bool Delete(int categoryId);

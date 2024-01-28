@@ -19,16 +19,16 @@ namespace ShahidSoltaniLibrary.Core.Core
         }
 
 
-        private IUserInterface _userInterface;
+        private IUserInterface _userService;
         public IUserInterface UserService
         {
             get
             {
-                if (_userInterface == null)
+                if (_userService == null)
                 {
-                    _userInterface = new UserService(context);
+                    _userService = new UserService(context);
                 }
-                return _userInterface;
+                return _userService;
             }
         }
 
@@ -46,6 +46,7 @@ namespace ShahidSoltaniLibrary.Core.Core
             }
         }
 
+
         private ILoginInterface _loginService;
         public ILoginInterface LoginService
         {
@@ -56,6 +57,20 @@ namespace ShahidSoltaniLibrary.Core.Core
                     _loginService = new LoginService(context);
                 }
                 return _loginService;
+            }
+        }
+
+
+        private IBookInterface _bookService;
+        public IBookInterface BookService 
+        {
+            get
+            {
+                if (_bookService == null)
+                {
+                    _bookService = new BookService(context);
+                }
+                return _bookService;
             }
         }
 

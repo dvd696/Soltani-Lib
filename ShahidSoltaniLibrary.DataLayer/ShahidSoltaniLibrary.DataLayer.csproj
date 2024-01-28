@@ -79,6 +79,14 @@
     <Compile Include="Migrations\202401261513242_addregistertobooks.designer.cs">
       <DependentUpon>202401261513242_addregistertobooks.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202401281129241_editbookentity.cs" />
+    <Compile Include="Migrations\202401281129241_editbookentity.designer.cs">
+      <DependentUpon>202401281129241_editbookentity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202401281211012_editbook.cs" />
+    <Compile Include="Migrations\202401281211012_editbook.designer.cs">
+      <DependentUpon>202401281211012_editbook.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -101,6 +109,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202401261513242_addregistertobooks.resx">
       <DependentUpon>202401261513242_addregistertobooks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202401281129241_editbookentity.resx">
+      <DependentUpon>202401281129241_editbookentity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202401281211012_editbook.resx">
+      <DependentUpon>202401281211012_editbook.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

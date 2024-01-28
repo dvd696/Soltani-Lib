@@ -16,13 +16,15 @@ namespace ShahidSoltaniLibrary.DataLayer.Entities
         }
 
         [Key]
-        public int UserId { get; set; }
+        public int BookId { get; set; }
         [Required]
         public int CategoryId { get; set; }
         [Required]
         public string Title { get; set; }
         [Required]
         public int Number { get; set; }
+        [Required]
+        public int RemainNumber { get; set; }
         [Required]
         public bool CanLoan { get; set; }
         [Required]

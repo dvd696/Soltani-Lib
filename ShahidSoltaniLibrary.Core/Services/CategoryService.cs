@@ -79,6 +79,12 @@ namespace ShahidSoltaniLibrary.Core.Services
             return Category;
         }
 
+        public int GetIdByTitle(string title)
+        {
+            return _context.Categories.SingleOrDefault(c => c.Title == title)
+                .CategoryId;
+        }
+
         public Category GetOneById(int categoryId)
         {
             return _context.Categories.Find(categoryId);
