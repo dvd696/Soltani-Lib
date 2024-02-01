@@ -55,6 +55,7 @@
   <ItemGroup>
     <Compile Include="Context\LibraryContext.cs" />
     <Compile Include="Entities\Book.cs" />
+    <Compile Include="Entities\Loan.cs" />
     <Compile Include="Entities\Login.cs" />
     <Compile Include="Entities\Category.cs" />
     <Compile Include="Entities\User.cs" />
@@ -87,6 +88,10 @@
     <Compile Include="Migrations\202401281211012_editbook.designer.cs">
       <DependentUpon>202401281211012_editbook.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202402011502329_loan.cs" />
+    <Compile Include="Migrations\202402011502329_loan.designer.cs">
+      <DependentUpon>202402011502329_loan.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -115,6 +120,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202401281211012_editbook.resx">
       <DependentUpon>202401281211012_editbook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202402011502329_loan.resx">
+      <DependentUpon>202402011502329_loan.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

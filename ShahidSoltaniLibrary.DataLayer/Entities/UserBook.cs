@@ -18,17 +18,17 @@ namespace ShahidSoltaniLibrary.DataLayer.Entities
         [Key]
         public int UB_Id { get; set; }
         [Required]
-        public int UserId { get; set; }
-        [Required]
         public int BookId { get; set; }
+        [Required]
+        public int LoanId { get; set; }
 
         #region Navigation Property
 
-        [ForeignKey(nameof(UserId))]
-        public User User { get; set; }
-
         [ForeignKey(nameof(BookId))]
         public Book Book { get; set; }
+
+        [ForeignKey(nameof(LoanId))]
+        public Loan Loan { get; set; }
 
         #endregion
     }

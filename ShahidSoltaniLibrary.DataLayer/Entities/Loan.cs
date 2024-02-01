@@ -8,26 +8,30 @@ using System.Threading.Tasks;
 
 namespace ShahidSoltaniLibrary.DataLayer.Entities
 {
-    public class User
+    public class Loan
     {
-        public User()
+        public Loan()
         {
 
         }
 
         [Key]
+        public int LoanId { get; set; }
+        [Required]
         public int UserId { get; set; }
         [Required]
-        public string UserName { get; set; }
+        public bool Finish { get; set; } = false;
         [Required]
-        public DateTime RegisterDate { get; set; } = DateTime.Now;
-        [Required]
-        public bool IsActive { get; set; } = false;
+        public DateTime StartDate { get; set; } = DateTime.Now;
+        public DateTime? EndDate { get; set; }
 
 
         #region Navigation Property
 
-        public List<Loan> Loans { get; set; }
+        [ForeignKey(nameof(UserId))]
+        public User User { get; set; }
+
+        public List<UserBook> UserBooks { get; set; }
 
         #endregion
     }

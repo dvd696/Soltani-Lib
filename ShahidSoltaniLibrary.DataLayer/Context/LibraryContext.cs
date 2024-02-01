@@ -26,6 +26,8 @@ namespace ShahidSoltaniLibrary.DataLayer.Context
 
         public DbSet<UserBook> UserBooks { get; set; }
 
+        public DbSet<Loan> Loans { get; set; }
+
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
