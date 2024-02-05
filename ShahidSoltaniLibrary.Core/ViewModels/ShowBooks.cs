@@ -27,4 +27,9 @@ namespace ShahidSoltaniLibrary.Core.ViewModels
         [Required]
         public int Number { get; set; }
     }
+    public class NameBook
+    {
+        public string Name { get; set; }
+    }
+
 }

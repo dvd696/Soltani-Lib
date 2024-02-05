@@ -75,9 +75,32 @@ namespace ShahidSoltaniLibrary.Core.Core
         }
 
 
-        public void Save()
+        private ILoanInterface _loanService;
+        public ILoanInterface LoanService
         {
-            context.SaveChanges();
+            get
+            {
+                if (_loanService == null)
+                {
+                    _loanService = new LoanService(context);
+                }
+                return _loanService;
+            }
+        }
+
+
+        public bool Save()
+        {
+            try
+            {
+                context.SaveChanges();
+                return true;
+            }
+            catch (Exception e)
+            {
+                return false;
+                throw;
+            }
         }
         public void Dispose()
         {

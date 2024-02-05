@@ -94,6 +94,18 @@ namespace ShahidSoltaniLibrary.Core.Services
         public Book GetBookById(int bookId) =>
             _context.Books.Find(bookId);
 
+        public Book GetBookByName(string bookName)
+        {
+            return _context.Books.SingleOrDefault(b => b.Title == bookName);
+        }
+
+        public List<NameBook> GetBooksName(string bookName)
+        {
+            return _context.Books.Where(b => b.CanLoan && b.RemainNumber > 0 &&
+            b.Title.Contains(bookName))
+                .Select(b => new NameBook() { Name = b.Title }).ToList();
+        }
+
         public bool Update(Book book)
         {
             try

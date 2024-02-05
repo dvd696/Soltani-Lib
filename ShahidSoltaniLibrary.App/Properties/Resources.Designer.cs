@@ -293,6 +293,16 @@ namespace ShahidSoltaniLibrary.App.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap perspective_matte_57_128x128 {
+            get {
+                object obj = ResourceManager.GetObject("perspective_matte-57-128x128", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap perspective_matte_59_128x128 {
             get {
                 object obj = ResourceManager.GetObject("perspective_matte-59-128x128", resourceCulture);
@@ -306,6 +316,26 @@ namespace ShahidSoltaniLibrary.App.Properties {
         internal static System.Drawing.Bitmap perspective_matte_79_128x128 {
             get {
                 object obj = ResourceManager.GetObject("perspective_matte-79-128x128", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap perspective_matte_8_128x128 {
+            get {
+                object obj = ResourceManager.GetObject("perspective_matte-8-128x128", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap perspective_matte_95_128x128 {
+            get {
+                object obj = ResourceManager.GetObject("perspective_matte-95-128x128", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

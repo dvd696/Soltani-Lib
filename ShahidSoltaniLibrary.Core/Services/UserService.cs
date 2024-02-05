@@ -60,6 +60,14 @@ namespace ShahidSoltaniLibrary.Core.Services
             return DeleteUser(user);
         }
 
+        public List<NameUser> GetAllActiveUser(string userName)
+        {
+            return _context.Users
+                .Where(u => u.IsActive && u.UserName.Contains(userName))
+                .Select(u => new NameUser() { Name = u.UserName })
+                .ToList();
+        }
+
         public IEnumerable<User> GetAllUser()
         {
             var Users = _context.Users;
@@ -84,6 +92,12 @@ namespace ShahidSoltaniLibrary.Core.Services
         {
             return _context.Users
                 .SingleOrDefault(u => u.UserId == userId);
+        }
+
+        public User GetUserByUserName(string userName)
+        {
+            return _context.Users
+                .SingleOrDefault(u => u.UserName == userName);
         }
 
         public bool IsExistsUser(string userName)

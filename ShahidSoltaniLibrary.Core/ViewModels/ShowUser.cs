@@ -14,4 +14,8 @@ namespace ShahidSoltaniLibrary.Core.ViewModels
         public string RegisterDate { get; set; }
         public string IsActive { get; set; }
     }
+    public class NameUser
+    {
+        public string Name { get; set; }
+    }
 }

@@ -185,6 +185,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="download.ico" />
+    <None Include="Resources\perspective_matte-95-128x128.png" />
+    <None Include="Resources\perspective_matte-8-128x128.png" />
+    <None Include="Resources\perspective_matte-57-128x128.png" />
     <None Include="Resources\Dust-128x128.png" />
     <None Include="Resources\Editor-128x128.png" />
     <None Include="Resources\Knowledge-base-128x128.png" />
