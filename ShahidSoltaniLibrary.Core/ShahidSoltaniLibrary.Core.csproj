@@ -66,6 +66,7 @@
     <Compile Include="Services\UserService.cs" />
     <Compile Include="Tools\DateConvertor.cs" />
     <Compile Include="ViewModels\ShowBooks.cs" />
+    <Compile Include="ViewModels\ShowLoan.cs" />
     <Compile Include="ViewModels\ShowUser.cs" />
   </ItemGroup>
   <ItemGroup />

@@ -1,4 +1,6 @@
 ﻿using ShahidSoltaniLibrary.Core.Interfaces;
+using ShahidSoltaniLibrary.Core.Tools;
+using ShahidSoltaniLibrary.Core.ViewModels;
 using ShahidSoltaniLibrary.DataLayer.Context;
 using ShahidSoltaniLibrary.DataLayer.Entities;
 using System;
@@ -74,7 +76,21 @@ namespace ShahidSoltaniLibrary.Core.Services
             return Delete(loan);
         }
 
-        public List<Loan> GetAllLoan(string query, string status)
+        public bool DeleteUserBooks(UserBook book)
+        {
+            try
+            {
+                _context.UserBooks.Remove(book);
+                return true;
+            }
+            catch (Exception)
+            {
+                return false;
+                throw;
+            }
+        }
+
+        public List<ShowLoan> GetAllLoan(string query, string status)
         {
             IQueryable<Loan> Loans = _context.Loans.Include("User")
                 .Include("UserBooks");
@@ -95,11 +111,18 @@ namespace ShahidSoltaniLibrary.Core.Services
                     }
             }
 
-            return Loans.OrderByDescending(l=> l.StartDate).ToList();
+            return Loans.ToList().Select(l => new ShowLoan()
+            {
+                LoanId = l.LoanId,
+                StartDate = l.StartDate.ToShamsi(),
+                EndDate = (l.EndDate!=null)?l.EndDate.Value.ToShamsi():"",
+                IsFinish = (l.Finish)?"اتمام رسیده":"در حال اجرا",
+                UserName = l.User.UserName
+            }).OrderByDescending(l=> l.StartDate).ToList();
         }
 
         public Loan GetLoanById(int loanId) =>
-            _context.Loans.Find(loanId);
+            _context.Loans.Include("UserBooks").SingleOrDefault(l=> l.LoanId==loanId);
 
         public bool Update(Loan loan)
         {
