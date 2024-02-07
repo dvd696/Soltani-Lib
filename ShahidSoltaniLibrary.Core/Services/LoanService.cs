@@ -121,8 +121,14 @@ namespace ShahidSoltaniLibrary.Core.Services
             }).OrderByDescending(l=> l.StartDate).ToList();
         }
 
+        public List<string> GetBooksLoan(int loanId)
+        {
+            return _context.UserBooks.Include("Book").Where(ub => ub.LoanId == loanId)
+                .Select(c=> c.Book.Title).ToList();
+        }
+
         public Loan GetLoanById(int loanId) =>
-            _context.Loans.Include("UserBooks").SingleOrDefault(l=> l.LoanId==loanId);
+            _context.Loans.Include("User").Include("UserBooks").SingleOrDefault(l=> l.LoanId==loanId);
 
         public bool Update(Loan loan)
         {

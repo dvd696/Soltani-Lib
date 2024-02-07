@@ -55,6 +55,7 @@
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties16 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             this.xuiObjectEllipse1 = new XanderUI.XUIObjectEllipse();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.bunifuShapes1 = new Bunifu.UI.WinForms.BunifuShapes();
@@ -63,19 +64,18 @@
             this.label4 = new System.Windows.Forms.Label();
             this.txtSearchBook = new Bunifu.UI.WinForms.BunifuTextBox();
             this.grdBook = new Bunifu.UI.WinForms.BunifuDataGridView();
+            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.bunifuImageButton1 = new Bunifu.UI.WinForms.BunifuImageButton();
             this.bunifuButton21 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton2();
             this.txtSearchUser = new Bunifu.UI.WinForms.BunifuTextBox();
             this.grdUser = new Bunifu.UI.WinForms.BunifuDataGridView();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label5 = new System.Windows.Forms.Label();
             this.txtBooks = new Bunifu.UI.WinForms.BunifuTextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.txtName = new Bunifu.UI.WinForms.BunifuTextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.err = new System.Windows.Forms.ErrorProvider(this.components);
-            this.label3 = new System.Windows.Forms.Label();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.grdBook)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.grdUser)).BeginInit();
@@ -113,6 +113,16 @@
             this.groupBox1.Size = new System.Drawing.Size(712, 347);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.ForeColor = System.Drawing.Color.Gray;
+            this.label3.Location = new System.Drawing.Point(526, 173);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(170, 24);
+            this.label3.TabIndex = 20;
+            this.label3.Text = "میتوانید چند کتاب انتخاب کنید";
             // 
             // label9
             // 
@@ -318,6 +328,13 @@
             this.grdBook.TabIndex = 12;
             this.grdBook.Theme = Bunifu.UI.WinForms.BunifuDataGridView.PresetThemes.Dark;
             this.grdBook.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.grdBook_CellClick);
+            // 
+            // dataGridViewTextBoxColumn1
+            // 
+            this.dataGridViewTextBoxColumn1.DataPropertyName = "Name";
+            this.dataGridViewTextBoxColumn1.HeaderText = "نام کتاب";
+            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
+            this.dataGridViewTextBoxColumn1.ReadOnly = true;
             // 
             // bunifuImageButton1
             // 
@@ -586,6 +603,13 @@
             this.grdUser.Theme = Bunifu.UI.WinForms.BunifuDataGridView.PresetThemes.Dark;
             this.grdUser.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.grdUser_CellClick);
             // 
+            // Column1
+            // 
+            this.Column1.DataPropertyName = "Name";
+            this.Column1.HeaderText = "نام شخص";
+            this.Column1.Name = "Column1";
+            this.Column1.ReadOnly = true;
+            // 
             // label5
             // 
             this.label5.AutoSize = true;
@@ -771,30 +795,6 @@
             // 
             this.err.ContainerControl = this;
             // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.ForeColor = System.Drawing.Color.Gray;
-            this.label3.Location = new System.Drawing.Point(526, 173);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(170, 24);
-            this.label3.TabIndex = 20;
-            this.label3.Text = "میتوانید چند کتاب انتخاب کنید";
-            // 
-            // Column1
-            // 
-            this.Column1.DataPropertyName = "Name";
-            this.Column1.HeaderText = "نام شخص";
-            this.Column1.Name = "Column1";
-            this.Column1.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn1
-            // 
-            this.dataGridViewTextBoxColumn1.DataPropertyName = "Name";
-            this.dataGridViewTextBoxColumn1.HeaderText = "نام کتاب";
-            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
-            this.dataGridViewTextBoxColumn1.ReadOnly = true;
-            // 
             // ReportForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 24F);
@@ -809,6 +809,7 @@
             this.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "ReportForm";
+            this.Load += new System.EventHandler(this.ReportForm_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.grdBook)).EndInit();

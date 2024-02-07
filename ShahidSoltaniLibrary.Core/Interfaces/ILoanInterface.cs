@@ -13,6 +13,7 @@ namespace ShahidSoltaniLibrary.Core.Interfaces
         List<ShowLoan> GetAllLoan(string query, string status);
         bool CheckUserNoOpenLoan(int userId);
         Loan GetLoanById(int loanId);
+        List<string> GetBooksLoan(int loanId);
         bool Add(Loan loan);
         bool AddUserBooks(UserBook book);
         bool DeleteUserBooks(UserBook book);

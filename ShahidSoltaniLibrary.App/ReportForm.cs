@@ -45,6 +45,7 @@ namespace ShahidSoltaniLibrary.App
                         UserId = user.UserId,
                     };
                     _uow.LoanService.Add(loan);
+
                     foreach (var ubook in txtBooks.Text.Trim().Split(' '))
                     {
                         var book = _uow.BookService.GetBookByName(ubook);
@@ -78,7 +79,7 @@ namespace ShahidSoltaniLibrary.App
 
         private void txtSearchBook_TextChanged(object sender, EventArgs e)
         {
-            if(!string.IsNullOrEmpty(txtSearchBook.Text))
+            if (!string.IsNullOrEmpty(txtSearchBook.Text))
                 grdBook.DataSource = _uow.BookService.GetBooksName(txtSearchBook.Text);
         }
 
@@ -93,6 +94,10 @@ namespace ShahidSoltaniLibrary.App
             txtBooks.Text = booksSelected;
             numberBook++;
             lblNumber.Text = numberBook.ToString();
+        }
+
+        private void ReportForm_Load(object sender, EventArgs e)
+        {
         }
     }
 }
