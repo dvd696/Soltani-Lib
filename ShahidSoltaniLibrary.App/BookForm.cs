@@ -67,13 +67,13 @@ namespace ShahidSoltaniLibrary.App
                     res = _uow.BookService.Add(book);
                 }
                 _uow.Save();
+                Messagebox msg;
                 if (res)
-                    MessageBox.Show("عملیات موفقیت آمیز بود", "موفقیت",
-                            MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+                    msg = new Messagebox();
                 else
-                    MessageBox.Show("عملیات شکشت خورد دوباره تلاش کنید", "شکست",
-                            MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    msg = new Messagebox("شکست خورد", "عملیات شکست خورد دوباره تلاش کنید", 2);
 
+                msg.ShowDialog();
                 DialogResult = DialogResult.OK;
             }
         }

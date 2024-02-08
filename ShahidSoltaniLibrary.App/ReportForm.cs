@@ -36,7 +36,10 @@ namespace ShahidSoltaniLibrary.App
                 //Check User Has No Open Any Loan Already
                 var user = _uow.UserService.GetUserByUserName(txtName.Text);
                 if (_uow.LoanService.CheckUserNoOpenLoan(user.UserId))
-                    MessageBox.Show("کاربر از قبل امانت تمام نشده ای دارد کتاب ها را به آن اضافه کنید");
+                {
+                    Messagebox msg = new Messagebox("مشکل", "کاربر از قبل امانتی ناتمام دارد", 2);
+                    msg.ShowDialog();
+                }
                 else
                 {
                     Loan loan = new Loan()
@@ -57,10 +60,12 @@ namespace ShahidSoltaniLibrary.App
                         _uow.BookService.Update(book);
                     }
                     bool res = _uow.Save();
+                    Messagebox resmsg;
                     if (res)
-                        MessageBox.Show("موفقیت");
+                        resmsg = new Messagebox();
                     else
-                        MessageBox.Show("شکست");
+                        resmsg = new Messagebox("شکست خورد", "عملیات شکست خورد دوباره تلاش کنید", 2);
+                    resmsg.ShowDialog();
                     DialogResult = DialogResult.OK;
                 }
             }

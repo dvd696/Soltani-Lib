@@ -49,8 +49,8 @@ namespace ShahidSoltaniLibrary.App
 
         private void btnDeleteUser_Click(object sender, EventArgs e)
         {
-            dynamic res = MessageBox.Show("آیا از حذف کاربر اطمینان دارید؟", "حذف کاربر"
-                  , MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
+            Messagebox msg = new Messagebox("اخطار", "آیا از حذف کاربر اطمینان دارید؟", 1);
+            dynamic res = msg.ShowDialog();
             if (res == DialogResult.OK)
             {
                 res = _uow.UserService.DeleteUser(user.UserId);

@@ -98,6 +98,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.xuiObjectAnimator1 = new XanderUI.XUIObjectAnimator();
             this.xuiCustomToolstrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuPictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuPictureBox2)).BeginInit();
@@ -980,6 +981,7 @@
             this.grd.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.grd.Theme = Bunifu.UI.WinForms.BunifuDataGridView.PresetThemes.Navy;
             this.grd.CellContentDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.grd_CellContentDoubleClick);
+            this.grd.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.grd_CellDoubleClick);
             // 
             // Column1
             // 
@@ -1139,6 +1141,7 @@
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn CategoryId;
+        private XanderUI.XUIObjectAnimator xuiObjectAnimator1;
     }
 }
 

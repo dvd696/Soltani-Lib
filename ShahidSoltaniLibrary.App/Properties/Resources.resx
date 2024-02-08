@@ -127,8 +127,8 @@
   <data name="perspective_matte-17-128x128" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\perspective_matte-17-128x128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="arm_sampad-small-01-removebg1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\arm_sampad-small-01-removebg1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="perspective_matte-95-128x128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\perspective_matte-95-128x128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Category-128x128" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Category-128x128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -138,6 +138,9 @@
   </data>
   <data name="perspective_matte-8-128x128" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\perspective_matte-8-128x128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="perspective_matte-59-128x128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\perspective_matte-59-128x128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Editor-128x128" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Editor-128x128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -157,11 +160,14 @@
   <data name="Dust-128x128" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Dust-128x128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="perspective_matte-4-128x128" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\perspective_matte-4-128x128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="perspective_matte-43-128x128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\perspective_matte-43-128x128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="perspective_matte-16-128x128" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\perspective_matte-16-128x128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icons8-check-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-check-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="arm_sampad-small-01-removebg" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\arm_sampad-small-01-removebg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -172,14 +178,23 @@
   <data name="arm_sampad-small-01-removebg2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\arm_sampad-small-01-removebg2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="icons8-multiply-32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-multiply-32.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="perspective_matte-57-128x128" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\perspective_matte-57-128x128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="perspective_matte-59-128x128" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\perspective_matte-59-128x128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icons8-check-321" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-check-321.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="perspective_matte-117-128x128" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\perspective_matte-117-128x128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="perspective_matte-4-128x128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\perspective_matte-4-128x128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="multi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\multi.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arm_sampad-small-01-removebg1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arm_sampad-small-01-removebg1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="perspective_matte-18-128x128" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\perspective_matte-18-128x128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -190,14 +205,17 @@
   <data name="perspective_matte-15-128x1281" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\perspective_matte-15-128x1281.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="perspective_matte-117-128x128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\perspective_matte-117-128x128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="perspective_matte-15-128x128" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\perspective_matte-15-128x128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="perspective_matte-102-128x128" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\perspective_matte-102-128x128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="perspective_matte-43-128x128" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\perspective_matte-43-128x128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="multi1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\multi1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="perspective_matte-128x128" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\perspective_matte-128x128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -205,7 +223,7 @@
   <data name="perspective_matte-29-128x128" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\perspective_matte-29-128x128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="perspective_matte-95-128x128" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\perspective_matte-95-128x128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Attention_perspective_matte-128x128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Attention_perspective_matte-128x128.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -77,18 +77,19 @@ namespace ShahidSoltaniLibrary.App
         {
             if (grd.SelectedCells.Count > 0)
             {
-                var res = MessageBox.Show("از حذف اطمینان دارید", "حذف", buttons: MessageBoxButtons.OKCancel);
+                Messagebox msg = new Messagebox("اخطار","آیا از حذف اطمینان دارید؟",1);
+                var res = msg.ShowDialog();
                 if (res == DialogResult.OK)
                 {
                     int bookId = int.Parse(grd.SelectedCells[0].Value.ToString());
                     bool result = _uow.BookService.Delete(bookId);
                     _uow.Save();
+                    Messagebox resmsg;
                     if (result)
-                        MessageBox.Show("عملیات موفقیت آمیز بود", "حذف",
-                                MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+                        resmsg = new Messagebox();
                     else
-                        MessageBox.Show("عملیات شکشت خورد دوباره تلاش کنید", "حذف",
-                                MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        resmsg = new Messagebox("شکست خورد", "عملیات شکست خورد دوباره تلاش کنید", 2);
+                    resmsg.ShowDialog();
                     UpdateData();
                 }
             }

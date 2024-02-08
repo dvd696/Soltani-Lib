@@ -93,6 +93,16 @@ namespace ShahidSoltaniLibrary.App.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Attention_perspective_matte_128x128 {
+            get {
+                object obj = ResourceManager.GetObject("Attention_perspective_matte-128x128", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Category_128x128 {
             get {
                 object obj = ResourceManager.GetObject("Category-128x128", resourceCulture);
@@ -123,9 +133,59 @@ namespace ShahidSoltaniLibrary.App.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_check_32 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-check-32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_check_321 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-check-321", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_multiply_32 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-multiply-32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Knowledge_base_128x128 {
             get {
                 object obj = ResourceManager.GetObject("Knowledge-base-128x128", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap multi {
+            get {
+                object obj = ResourceManager.GetObject("multi", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap multi1 {
+            get {
+                object obj = ResourceManager.GetObject("multi1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -29,3 +29,4 @@ F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.App\bin\Debug\EntityFramewo
 F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.App\bin\Debug\EntityFramework.SqlServer.dll
 F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.App\bin\Debug\EntityFramework.SqlServer.xml
 F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.App\obj\Debug\ShahidSoltaniLibrary.App.EditUserForm.resources
+F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.App\obj\Debug\ShahidSoltaniLibrary.App.Messagebox.resources

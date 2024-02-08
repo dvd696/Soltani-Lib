@@ -60,20 +60,17 @@ namespace ShahidSoltaniLibrary.App
                 user.IsActive = swtStatus.Checked;
                 bool res = _uow.UserService.AddUser(user);
                 _uow.Save();
+                Messagebox msg;
                 if (res)
                 {
+                    msg = new Messagebox();
                     txtName.Text = "";
                     swtStatus.Checked = false;
-                    MessageBox.Show("عملیات موفقیت آمیز بود", "افزودن",
-                        MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
                     UpdateData();
                 }
                 else
-                {
-                    MessageBox.Show("عملیات شکشت خورد دوباره تلاش کنید",
-                        "افزودن",
-                        MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
+                    msg = new Messagebox("شکست خورد", "عملیات شکست خورد دوباره تلاش کنید", 2);
+                msg.ShowDialog();
             }
         }
 
@@ -101,12 +98,17 @@ namespace ShahidSoltaniLibrary.App
             var user = _uow.UserService.GetUserById(Convert.ToInt32(grd.SelectedCells[0].Value));
             EditUserForm frm = new EditUserForm(user);
             var res = frm.ShowDialog();
-            if(res==DialogResult.OK)
-                MessageBox.Show("عملیات موفقیت آمیز بود", "ویرایش",
-                    MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
-            else if(res==DialogResult.Abort)
-                MessageBox.Show("عملیات شکشت خورد دوباره تلاش کنید","ویرایش",
-                    MessageBoxButtons.OK, MessageBoxIcon.Error);
+            Messagebox msg;
+            if (res == DialogResult.OK)
+            {
+                msg = new Messagebox();
+                msg.ShowDialog();
+            }
+            else if (res == DialogResult.Abort)
+            {
+                msg = new Messagebox("شکست خورد", "عملیات شکست خورد دوباره تلاش کنید", 2);
+                msg.ShowDialog();
+            }
             UpdateData();
         }
     }

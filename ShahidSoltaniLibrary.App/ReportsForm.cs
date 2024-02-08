@@ -53,7 +53,8 @@ namespace ShahidSoltaniLibrary.App
 
         private void btnDelete_Click(object sender, EventArgs e)
         {
-            var status = MessageBox.Show("آیا مطمئنی؟", "d", MessageBoxButtons.OKCancel);
+            Messagebox msg = new Messagebox("اخطار","آیا از حذف اطمینان دارید؟",1);
+            var status = msg.ShowDialog();
             if (grd.SelectedCells != null && status == DialogResult.OK)
             {
                 int loanId = Convert.ToInt32(grd.SelectedCells[0].Value);
@@ -71,11 +72,13 @@ namespace ShahidSoltaniLibrary.App
                 _uow.LoanService.Delete(loan);
                 bool res = _uow.Save();
 
+                Messagebox resmsg;
                 if (res)
-                    MessageBox.Show("موفقیت");
+                    resmsg = new Messagebox();
                 else
-                    MessageBox.Show("شکست");
+                    resmsg = new Messagebox("شکست خورد", "عملیات شکست خورد دوباره تلاش کنید", 2);
 
+                resmsg.ShowDialog();
                 UpdateData();
             }
         }
@@ -84,31 +87,38 @@ namespace ShahidSoltaniLibrary.App
         {
             if (grd.SelectedCells != null)
             {
-                var status = MessageBox.Show("آیا مطمئنی؟", "d", MessageBoxButtons.OKCancel);
+                Messagebox msg = new Messagebox("اخطار", "آیا از انجام عملیات اطمینان دارید؟", 1);
+                var status = msg.ShowDialog();
                 int loanId = Convert.ToInt32(grd.SelectedCells[0].Value);
                 var loan = _uow.LoanService.GetLoanById(loanId);
                 if (status == DialogResult.OK && loan.Finish)
                 {
-                    MessageBox.Show("عملیات از قبل انجام شده");
+                    Messagebox alreadymsg = new Messagebox("انجام شد", "عملیات از قبل انجام شده است",0);
+                    alreadymsg.ShowDialog();
                     return;
                 }
-                loan.Finish = true;
-                loan.EndDate = DateTime.Now;
-                _uow.LoanService.Update(loan);
-                foreach (var ubook in loan.UserBooks)
+                else if(status == DialogResult.OK)
                 {
-                    var book = _uow.BookService.GetBookById(ubook.BookId);
-                    book.RemainNumber++;
-                    _uow.BookService.Update(book);
+                    loan.Finish = true;
+                    loan.EndDate = DateTime.Now;
+                    _uow.LoanService.Update(loan);
+                    foreach (var ubook in loan.UserBooks)
+                    {
+                        var book = _uow.BookService.GetBookById(ubook.BookId);
+                        book.RemainNumber++;
+                        _uow.BookService.Update(book);
+                    }
+                    bool res = _uow.Save();
+
+                    Messagebox resmsg;
+                    if (res)
+                        resmsg = new Messagebox();
+                    else
+                        resmsg = new Messagebox("شکست خورد", "عملیات شکست خورد دوباره تلاش کنید", 2);
+
+                    resmsg.ShowDialog();
+                    UpdateData();
                 }
-                bool res = _uow.Save();
-
-                if (res)
-                    MessageBox.Show("موفقیت");
-                else
-                    MessageBox.Show("شکست");
-
-                UpdateData();
             }
         }
 

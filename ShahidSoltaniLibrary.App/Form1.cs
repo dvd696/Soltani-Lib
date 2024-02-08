@@ -101,17 +101,16 @@ namespace ShahidSoltaniLibrary.App
         {
             if (txtCategory.Text != "" && txtCategory.Text != null)
             {
+                Messagebox msg = new Messagebox();
                 if (_uow.CategoryService.IsExist(txtCategory.Text))
-                    MessageBox.Show("عملیات موفقیت آمیز بود", "افزودن",
-                            MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+                    msg.ShowDialog();
                 else
                 {
                     Category category = new Category();
                     category.Title = txtCategory.Text;
                     _uow.CategoryService.Add(category);
                     _uow.Save();
-                    MessageBox.Show("عملیات موفقیت آمیز بود", "افزودن",
-                            MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+                    msg.ShowDialog();
                     UpdateData();
                 }
             }
@@ -126,21 +125,25 @@ namespace ShahidSoltaniLibrary.App
 
         private void grd_CellContentDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
+         
+        }
+
+        private void grd_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
+        {
             if (grd.SelectedCells.Count > 0)
             {
-                if (MessageBox.Show("آیا از حذف اطمینان دارید؟", "حذف",
-                    MessageBoxButtons.OKCancel, MessageBoxIcon.Warning)
-                    == DialogResult.OK)
+                Messagebox msg = new Messagebox("اخطار", "آیا از حذف اطمینان دارید؟", 1);
+                if (msg.ShowDialog() == DialogResult.OK)
                 {
                     int categoryId = Convert.ToInt32(grd.SelectedCells[0].Value);
                     bool res = _uow.CategoryService.Delete(categoryId);
                     _uow.Save();
+                    Messagebox resmsg;
                     if (res)
-                        MessageBox.Show("عملیات موفقیت آمیز بود", "حذف",
-                            MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+                        resmsg = new Messagebox();
                     else
-                        MessageBox.Show("عملیات شکشت خورد دوباره تلاش کنید", "حذف",
-                            MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        resmsg = new Messagebox("شکست خورد", "عملیات شکست خورد دوباره تلاش کنید", 2);
+                    resmsg.ShowDialog();
                     UpdateData();
                 }
             }

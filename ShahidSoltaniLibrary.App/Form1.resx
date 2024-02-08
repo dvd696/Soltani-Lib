@@ -2332,6 +2332,12 @@
   <data name="&gt;&gt;CategoryId.Type" xml:space="preserve">
     <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="&gt;&gt;xuiObjectAnimator1.Name" xml:space="preserve">
+    <value>xuiObjectAnimator1</value>
+  </data>
+  <data name="&gt;&gt;xuiObjectAnimator1.Type" xml:space="preserve">
+    <value>XanderUI.XUIObjectAnimator, XanderUI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</value>
+  </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>FormMain</value>
   </data>
@@ -2353,4 +2359,7 @@
   <data name="&gt;&gt;contextMenuStrip1.Type" xml:space="preserve">
     <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <metadata name="xuiObjectAnimator1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>725, 17</value>
+  </metadata>
 </root>

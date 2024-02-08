@@ -42,7 +42,8 @@ namespace ShahidSoltaniLibrary.App
             {
                 if (_uow.LoginService.IsExistLogin(txtUserName.Text, txtPassword.Text))
                 {
-                    MessageBox.Show("خودش آمدید");
+                    Messagebox messagebox = new Messagebox();
+                    messagebox.ShowDialog();
                     DialogResult = DialogResult.OK;
                     this.Close();
                 }

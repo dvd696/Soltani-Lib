@@ -64,17 +64,17 @@ namespace ShahidSoltaniLibrary.App
 
                     _uow.Save();
 
+                    Messagebox msg;
                     if (res)
                     {
-                        MessageBox.Show("عملیات موفقیت آمیز بود", "تغییر",
-                            MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+                        msg = new Messagebox();
                         txtOldPassword.Text = "";
                         txtPassword.Text = "";
                         txtRePassword.Text = "";
                     }
                     else
-                        MessageBox.Show("عملیات شکشت خورد دوباره تلاش کنید", "حذف",
-                            MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        msg = new Messagebox("شکست خورد", "عملیات شکست خورد دوباره تلاش کنید", 2);
+                    msg.ShowDialog();
                 }
             }
         }
