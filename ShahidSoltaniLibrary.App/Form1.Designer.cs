@@ -86,6 +86,7 @@
             this.bunifuShapes14 = new Bunifu.UI.WinForms.BunifuShapes();
             this.bunifuShapes13 = new Bunifu.UI.WinForms.BunifuShapes();
             this.panelCategory = new Bunifu.UI.WinForms.BunifuShadowPanel();
+            this.label4 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.txtSearch = new Bunifu.UI.WinForms.BunifuTextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
@@ -669,6 +670,13 @@
             this.panelCategory.ShadowTopLeftVisible = false;
             this.panelCategory.Style = Bunifu.UI.WinForms.BunifuShadowPanel.BevelStyles.Flat;
             // 
+            // label4
+            // 
+            resources.ApplyResources(this.label4, "label4");
+            this.trnPanel.SetDecoration(this.label4, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.label4.Name = "label4";
+            // 
             // groupBox3
             // 
             this.groupBox3.Controls.Add(this.txtSearch);
@@ -752,6 +760,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.txtCategory);
             this.groupBox1.Controls.Add(this.btnAddCategory);
             this.trnPanel.SetDecoration(this.groupBox1, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
@@ -980,8 +989,6 @@
             this.grd.RowTemplate.Height = 40;
             this.grd.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.grd.Theme = Bunifu.UI.WinForms.BunifuDataGridView.PresetThemes.Navy;
-            this.grd.CellContentDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.grd_CellContentDoubleClick);
-            this.grd.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.grd_CellDoubleClick);
             // 
             // Column1
             // 
@@ -1078,6 +1085,7 @@
             this.panelCategory.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);
             this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.grd)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -1142,6 +1150,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn CategoryId;
         private XanderUI.XUIObjectAnimator xuiObjectAnimator1;
+        private System.Windows.Forms.Label label4;
     }
 }
 

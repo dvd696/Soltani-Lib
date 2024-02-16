@@ -1,0 +1,15 @@
+F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.Core\bin\Release\ShahidSoltaniLibrary.Core.dll.config
+F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.Core\bin\Release\ShahidSoltaniLibrary.Core.dll
+F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.Core\bin\Release\ShahidSoltaniLibrary.Core.pdb
+F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.Core\bin\Release\EntityFramework.dll
+F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.Core\bin\Release\EntityFramework.SqlServer.dll
+F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.Core\bin\Release\ShahidSoltaniLibrary.DataLayer.dll
+F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.Core\bin\Release\ShahidSoltaniLibrary.DataLayer.pdb
+F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.Core\bin\Release\ShahidSoltaniLibrary.DataLayer.dll.config
+F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.Core\bin\Release\EntityFramework.xml
+F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.Core\bin\Release\EntityFramework.SqlServer.xml
+F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.Core\obj\Release\ShahidSoltaniLibrary.Core.csproj.AssemblyReference.cache
+F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.Core\obj\Release\ShahidSoltaniLibrary.Core.csproj.CoreCompileInputs.cache
+F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.Core\obj\Release\ShahidSoltaniLibrary.Core.csproj.CopyComplete
+F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.Core\obj\Release\ShahidSoltaniLibrary.Core.dll
+F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.Core\obj\Release\ShahidSoltaniLibrary.Core.pdb

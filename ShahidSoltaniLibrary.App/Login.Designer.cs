@@ -210,9 +210,9 @@
             stateProperties4.PlaceholderForeColor = System.Drawing.Color.Empty;
             this.txtPassword.OnIdleState = stateProperties4;
             this.txtPassword.Padding = new System.Windows.Forms.Padding(3);
-            this.txtPassword.PasswordChar = '●';
+            this.txtPassword.PasswordChar = '\0';
             this.txtPassword.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.txtPassword.PlaceholderText = "";
+            this.txtPassword.PlaceholderText = "رمز عبور";
             this.txtPassword.ReadOnly = false;
             this.txtPassword.ScrollBars = System.Windows.Forms.ScrollBars.None;
             this.txtPassword.SelectedText = "";
@@ -226,8 +226,8 @@
             this.txtPassword.TextMarginBottom = 0;
             this.txtPassword.TextMarginLeft = 3;
             this.txtPassword.TextMarginTop = 1;
-            this.txtPassword.TextPlaceholder = "";
-            this.txtPassword.UseSystemPasswordChar = true;
+            this.txtPassword.TextPlaceholder = "رمز عبور";
+            this.txtPassword.UseSystemPasswordChar = false;
             this.txtPassword.WordWrap = true;
             this.txtPassword.TextChanged += new System.EventHandler(this.bunifuTextBox2_TextChanged);
             // 
@@ -280,7 +280,7 @@
             this.Loginbtn.IdleIconLeftImage = null;
             this.Loginbtn.IdleIconRightImage = null;
             this.Loginbtn.IndicateFocus = false;
-            this.Loginbtn.Location = new System.Drawing.Point(49, 289);
+            this.Loginbtn.Location = new System.Drawing.Point(49, 297);
             this.Loginbtn.Name = "Loginbtn";
             this.Loginbtn.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
             this.Loginbtn.OnDisabledState.BorderRadius = 38;
@@ -356,7 +356,7 @@
             this.errorlbl.CursorType = null;
             this.errorlbl.Font = new System.Drawing.Font("B Nazanin", 12F, System.Drawing.FontStyle.Bold);
             this.errorlbl.ForeColor = System.Drawing.Color.Black;
-            this.errorlbl.Location = new System.Drawing.Point(49, 338);
+            this.errorlbl.Location = new System.Drawing.Point(49, 346);
             this.errorlbl.Name = "errorlbl";
             this.errorlbl.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.errorlbl.Size = new System.Drawing.Size(260, 24);
@@ -405,7 +405,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(356, 374);
+            this.ClientSize = new System.Drawing.Size(356, 381);
             this.Controls.Add(this.bunifuImageButton1);
             this.Controls.Add(this.errorlbl);
             this.Controls.Add(this.Loginbtn);

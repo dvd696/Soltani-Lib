@@ -54,6 +54,8 @@
             this.btnDelete = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.btnEnd = new System.Windows.Forms.ToolStripButton();
+            this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
+            this.btnShow = new System.Windows.Forms.ToolStripButton();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.grd)).BeginInit();
             this.groupBox2.SuspendLayout();
@@ -375,6 +377,8 @@
             this.toolStripSeparator1,
             this.btnDelete,
             this.toolStripSeparator2,
+            this.btnShow,
+            this.toolStripSeparator3,
             this.btnEnd});
             this.xuiCustomToolstrip1.Location = new System.Drawing.Point(3, 27);
             this.xuiCustomToolstrip1.Name = "xuiCustomToolstrip1";
@@ -425,6 +429,22 @@
             this.btnEnd.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnEnd.Click += new System.EventHandler(this.btnEnd_Click);
             // 
+            // toolStripSeparator3
+            // 
+            this.toolStripSeparator3.Name = "toolStripSeparator3";
+            this.toolStripSeparator3.Size = new System.Drawing.Size(6, 54);
+            // 
+            // btnShow
+            // 
+            this.btnShow.Enabled = false;
+            this.btnShow.Image = global::ShahidSoltaniLibrary.App.Properties.Resources.Category_128x128;
+            this.btnShow.ImageTransparentColor = System.Drawing.Color.Magenta;
+            this.btnShow.Name = "btnShow";
+            this.btnShow.Size = new System.Drawing.Size(51, 51);
+            this.btnShow.Text = "مشاهده";
+            this.btnShow.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btnShow.Click += new System.EventHandler(this.toolStripButton2_Click);
+            // 
             // ReportsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 24F);
@@ -471,5 +491,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
+        private System.Windows.Forms.ToolStripButton btnShow;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator3;
     }
 }

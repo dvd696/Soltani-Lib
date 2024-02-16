@@ -327,7 +327,7 @@
     <value>0</value>
   </data>
   <data name="groupBox3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>19, 142</value>
+    <value>19, 163</value>
   </data>
   <data name="groupBox3.Size" type="System.Drawing.Size, System.Drawing">
     <value>261, 77</value>
@@ -348,6 +348,33 @@
     <value>panelCategory</value>
   </data>
   <data name="&gt;&gt;groupBox3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>40, 77</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>214, 24</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>امکان حذف وجود ندارد با دقت ثبت کنید</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <data name="txtCategory.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
@@ -384,7 +411,7 @@
     <value>groupBox1</value>
   </data>
   <data name="&gt;&gt;txtCategory.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <data name="btnAddCategory.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -399,7 +426,7 @@
     <value>Segoe UI, 9pt</value>
   </data>
   <data name="btnAddCategory.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 78</value>
+    <value>6, 106</value>
   </data>
   <data name="btnAddCategory.Size" type="System.Drawing.Size, System.Drawing">
     <value>248, 39</value>
@@ -417,7 +444,7 @@
     <value>groupBox1</value>
   </data>
   <data name="&gt;&gt;btnAddCategory.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="groupBox1.Font" type="System.Drawing.Font, System.Drawing">
     <value>B Nazanin, 12pt</value>
@@ -426,7 +453,7 @@
     <value>19, 12</value>
   </data>
   <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>260, 130</value>
+    <value>260, 151</value>
   </data>
   <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -465,10 +492,10 @@
     <value>False</value>
   </data>
   <data name="grd.Location" type="System.Drawing.Point, System.Drawing">
-    <value>19, 225</value>
+    <value>19, 249</value>
   </data>
   <data name="grd.Size" type="System.Drawing.Size, System.Drawing">
-    <value>260, 310</value>
+    <value>261, 286</value>
   </data>
   <data name="grd.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>

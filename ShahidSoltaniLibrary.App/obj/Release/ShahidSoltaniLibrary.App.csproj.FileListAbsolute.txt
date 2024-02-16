@@ -1,0 +1,16 @@
+F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.App\obj\Release\ShahidSoltaniLibrary.App.csproj.AssemblyReference.cache
+F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.App\obj\Release\ShahidSoltaniLibrary.App.csproj.SuggestedBindingRedirects.cache
+F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.App\obj\Release\ShahidSoltaniLibrary.App.AboutUsForm.resources
+F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.App\obj\Release\ShahidSoltaniLibrary.App.BookForm.resources
+F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.App\obj\Release\ShahidSoltaniLibrary.App.BooksForm.resources
+F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.App\obj\Release\ShahidSoltaniLibrary.App.EditUserForm.resources
+F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.App\obj\Release\ShahidSoltaniLibrary.App.FormMain.resources
+F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.App\obj\Release\ShahidSoltaniLibrary.App.Login.resources
+F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.App\obj\Release\ShahidSoltaniLibrary.App.Messagebox.resources
+F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.App\obj\Release\ShahidSoltaniLibrary.App.Properties.Resources.resources
+F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.App\obj\Release\ShahidSoltaniLibrary.App.ReportForm.resources
+F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.App\obj\Release\ShahidSoltaniLibrary.App.ReportsForm.resources
+F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.App\obj\Release\ShahidSoltaniLibrary.App.SettingForm.resources
+F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.App\obj\Release\ShahidSoltaniLibrary.App.UserForm.resources
+F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.App\obj\Release\ShahidSoltaniLibrary.App.csproj.GenerateResource.cache
+F:\Project\ShahidSoltaniLibrary\ShahidSoltaniLibrary.App\obj\Release\ShahidSoltaniLibrary.App.csproj.CoreCompileInputs.cache

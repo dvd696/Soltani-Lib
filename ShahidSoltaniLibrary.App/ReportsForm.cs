@@ -48,12 +48,13 @@ namespace ShahidSoltaniLibrary.App
         private void grd_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             btnEnd.Enabled = true;
+            btnShow.Enabled = true;
             btnDelete.Enabled = true;
         }
 
         private void btnDelete_Click(object sender, EventArgs e)
         {
-            Messagebox msg = new Messagebox("اخطار","آیا از حذف اطمینان دارید؟",1);
+            Messagebox msg = new Messagebox("اخطار", "آیا از حذف اطمینان دارید؟", 1);
             var status = msg.ShowDialog();
             if (grd.SelectedCells != null && status == DialogResult.OK)
             {
@@ -93,11 +94,11 @@ namespace ShahidSoltaniLibrary.App
                 var loan = _uow.LoanService.GetLoanById(loanId);
                 if (status == DialogResult.OK && loan.Finish)
                 {
-                    Messagebox alreadymsg = new Messagebox("انجام شد", "عملیات از قبل انجام شده است",0);
+                    Messagebox alreadymsg = new Messagebox("انجام شد", "عملیات از قبل انجام شده است", 0);
                     alreadymsg.ShowDialog();
                     return;
                 }
-                else if(status == DialogResult.OK)
+                else if (status == DialogResult.OK)
                 {
                     loan.Finish = true;
                     loan.EndDate = DateTime.Now;
@@ -125,6 +126,16 @@ namespace ShahidSoltaniLibrary.App
         private void bunifuButton21_Click(object sender, EventArgs e)
         {
             UpdateData(txtquery.Text, cmd.SelectedItem?.ToString());
+        }
+
+        private void toolStripButton2_Click(object sender, EventArgs e)
+        {
+            if (grd.SelectedCells != null)
+            {
+                int id = Convert.ToInt32(grd.SelectedCells[0].Value);
+                ShowReport frm = new ShowReport(id);
+                frm.ShowDialog();
+            }
         }
     }
 }

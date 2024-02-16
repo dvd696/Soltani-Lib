@@ -1,5 +1,4 @@
-﻿using Bunifu.UI.WinForms.Extensions;
-using ShahidSoltaniLibrary.Core.Core;
+﻿using ShahidSoltaniLibrary.Core.Core;
 using ShahidSoltaniLibrary.DataLayer.Entities;
 using System;
 using System.Collections.Generic;
@@ -17,6 +16,7 @@ namespace ShahidSoltaniLibrary.App
     public partial class FormMain : Form
     {
         private UnitOfWork _uow;
+
         public FormMain()
         {
             InitializeComponent();
@@ -121,32 +121,6 @@ namespace ShahidSoltaniLibrary.App
         private void txtSearch_TextChanged(object sender, EventArgs e)
         {
             UpdateData(txtSearch.Text);
-        }
-
-        private void grd_CellContentDoubleClick(object sender, DataGridViewCellEventArgs e)
-        {
-         
-        }
-
-        private void grd_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
-        {
-            if (grd.SelectedCells.Count > 0)
-            {
-                Messagebox msg = new Messagebox("اخطار", "آیا از حذف اطمینان دارید؟", 1);
-                if (msg.ShowDialog() == DialogResult.OK)
-                {
-                    int categoryId = Convert.ToInt32(grd.SelectedCells[0].Value);
-                    bool res = _uow.CategoryService.Delete(categoryId);
-                    _uow.Save();
-                    Messagebox resmsg;
-                    if (res)
-                        resmsg = new Messagebox();
-                    else
-                        resmsg = new Messagebox("شکست خورد", "عملیات شکست خورد دوباره تلاش کنید", 2);
-                    resmsg.ShowDialog();
-                    UpdateData();
-                }
-            }
         }
     }
 }
