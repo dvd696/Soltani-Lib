@@ -86,10 +86,10 @@
             this.bunifuShapes14 = new Bunifu.UI.WinForms.BunifuShapes();
             this.bunifuShapes13 = new Bunifu.UI.WinForms.BunifuShapes();
             this.panelCategory = new Bunifu.UI.WinForms.BunifuShadowPanel();
-            this.label4 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.txtSearch = new Bunifu.UI.WinForms.BunifuTextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label4 = new System.Windows.Forms.Label();
             this.txtCategory = new Bunifu.UI.WinForms.BunifuTextBox();
             this.btnAddCategory = new Bunifu.UI.WinForms.BunifuButton.BunifuButton2();
             this.grd = new Bunifu.UI.WinForms.BunifuDataGridView();
@@ -670,13 +670,6 @@
             this.panelCategory.ShadowTopLeftVisible = false;
             this.panelCategory.Style = Bunifu.UI.WinForms.BunifuShadowPanel.BevelStyles.Flat;
             // 
-            // label4
-            // 
-            resources.ApplyResources(this.label4, "label4");
-            this.trnPanel.SetDecoration(this.label4, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
-            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
-            this.label4.Name = "label4";
-            // 
             // groupBox3
             // 
             this.groupBox3.Controls.Add(this.txtSearch);
@@ -767,6 +760,13 @@
             resources.ApplyResources(this.groupBox1, "groupBox1");
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.TabStop = false;
+            // 
+            // label4
+            // 
+            resources.ApplyResources(this.label4, "label4");
+            this.trnPanel.SetDecoration(this.label4, Bunifu.UI.WinForms.BunifuTransition.DecorationType.None);
+            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.label4.Name = "label4";
             // 
             // txtCategory
             // 

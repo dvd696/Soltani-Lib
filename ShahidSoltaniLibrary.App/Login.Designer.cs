@@ -172,7 +172,7 @@
             this.txtPassword.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
             this.txtPassword.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txtPassword.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
-            this.txtPassword.DefaultText = "1402";
+            this.txtPassword.DefaultText = "";
             this.txtPassword.FillColor = System.Drawing.Color.White;
             this.txtPassword.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.txtPassword.HideSelection = true;
@@ -181,8 +181,7 @@
             this.txtPassword.IconPadding = 10;
             this.txtPassword.IconRight = null;
             this.txtPassword.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtPassword.Lines = new string[] {
-        "1402"};
+            this.txtPassword.Lines = new string[0];
             this.txtPassword.Location = new System.Drawing.Point(49, 221);
             this.txtPassword.MaxLength = 32767;
             this.txtPassword.MinimumSize = new System.Drawing.Size(1, 1);
@@ -217,7 +216,7 @@
             this.txtPassword.ScrollBars = System.Windows.Forms.ScrollBars.None;
             this.txtPassword.SelectedText = "";
             this.txtPassword.SelectionLength = 0;
-            this.txtPassword.SelectionStart = 4;
+            this.txtPassword.SelectionStart = 0;
             this.txtPassword.ShortcutsEnabled = true;
             this.txtPassword.Size = new System.Drawing.Size(260, 39);
             this.txtPassword.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Material;
